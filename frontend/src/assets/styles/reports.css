@@ -1,0 +1,145 @@
+.reports-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.reports-table th, .reports-table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.reports-table th {
+    background-color: #f2f2f2;
+}
+
+.reports-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+#detail-btn {
+    background-color: var(--color-500);
+    border: none;
+    color: var(--color-50);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+#detail-btn:hover {
+    background-color: var(--color-600);
+    cursor: pointer;
+}
+
+#delete-btn {
+    background-color: rgb(187, 28, 28);
+    border: none;
+    color: var(--color-50);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+#delete-btn:hover {
+    background-color: rgb(136, 19, 19);
+    cursor: pointer;
+}
+
+.action-container {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+.search-container {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    gap: 5px;
+}
+
+.search-container select {
+    padding: 12px;
+    border-radius: 5px;
+    margin: 0px;
+    border: 2px solid #ddd;
+}
+.search-container input {
+    margin: 0;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #ddd;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.download-pdf-container {
+    margin-bottom: 30px;
+}
+
+.btn-download-pdf {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: var(--color-500);
+    color: #fff;
+    padding: 9px 20px 9px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-download-pdf:hover {
+    background-color: var(--color-600);
+    cursor: pointer;
+}
+
+
+
+/* Responsive Design */
+
+@media (max-width: 767px) {
+    .reports-table {
+        width: 70%;
+    }
+}

@@ -1,0 +1,21 @@
+
+/* Report Filters */
+
+.chart-filters {
+    margin-top: 30px;
+    width: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: var(--color-500);
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 5px 5px #ddd;
+    color: #fff;
+}
+
+.chart-filters select {
+    width: 150px;
+    padding: 10px;
+}

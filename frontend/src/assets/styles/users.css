@@ -1,0 +1,13 @@
+@import url("./colors.css");
+
+.users-container {
+    display: flex;
+    background-color: #fff;
+    gap: 20px;
+}
+
+
+.users-container ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}

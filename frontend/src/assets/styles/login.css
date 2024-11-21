@@ -1,0 +1,115 @@
+@import url('./colors.css');
+
+
+.login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login-form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid var(--color-200);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.login-form h1 {
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.login-form input{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-bottom: 1px solid var(--color-200);
+}
+
+.login-form button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    background-color: var(--color-600);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.login-form button:hover {
+    background-color: var(--color-800);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login-form input:hover {
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.12);
+        -moz-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.error {
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    color: var(--color-50);
+    font-weight: 600;
+}
+
+.error-login {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    animation: slideIn 0.5s forwards, fadeOut 0.5s 4.5s forwards;
+    display: flex;
+    gap: 5px;
+}
+
+@keyframes slideIn {
+    from {
+        bottom: -50px;
+        opacity: 0;
+    }
+    to {
+        bottom: 100px; /* Ajusta esto según el diseño de tu contenedor de login */
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.radio-container {
+    display: flex;
+    gap: 10px;
+}
+
+.radio-container label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 600;
+}

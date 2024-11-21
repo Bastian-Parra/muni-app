@@ -1,0 +1,127 @@
+export const situationCategories = {
+    "DELITOS AMBIENTALES": [
+        "BASURAL",
+        "EXTRACCIÓN ILEGAL DE ALGAS",
+        "FOCO INCENDIO",
+        "MALTRATO ANIMAL",
+        "OLOR A GAS",
+        "QUEMA ILEGAL",
+        "RUIDOS MOLESTOS",
+        "TALA DE ARBOLES",
+        "VERTIMIENTO AGUAS SERVIDAS"
+    ],
+
+    "DELITOS ASOCIADOS A ARMAS": [
+        "BALACERA",
+        "CAZA",
+        "PORTE ARMA BLANCA",
+        "PORTE ARMA FUEGO",
+        "USO ARMA DE FUEGO"
+    ],
+
+    "DELITOS ASOCIADOS A DROGAS": [
+        "VENTA ILEGAL DE FÁRMACOS/CIGARRILLOS/ALCOHOL"
+    ],
+
+    "DELITOS ASOCIADOS A TRÁNSITO": [
+        "VEHÍCULO MAL ESTACIONADO",
+        "ACCIDENTE VEHICULAR",
+        "ATROPELLO",
+        "CARRERAS CLANDESTINAS",
+        "CONDUCCIÓN ESTADO EBRIEDAD"
+    ],
+
+    "DELITOS CONTRA LA PROPIEDAD NO VIOLENTOS": [
+        "ROBO",
+        "ROBO DE VEHÍCULO",
+        "ROBO DE ELECTRICIDAD",
+        "ROBO EN LUGAR HABITADO",
+        "ROBO EN LUGAR NO HABITADO",
+        "ROBO ESPECIES DE VEHÍCULO",
+        "HALLAZGO VEHÍCULO",
+        "HURTO",
+        "PERSECUCIÓN VEHÍCULO",
+        "TOMA DE VIVIENDA",
+        "VEHÍCULO ABANDONADO"
+    ],
+
+    "DELITOS VIOLENTOS": [
+        "AGRESIÓN SEXUAL",
+        "AMENAZAS",
+        "CONFLICO Y AMENAZAS ENTRE VECINOS",
+        "DETENCIÓN CIUDADANA",
+        "LESIONES GRAVES",
+        "RIÑA",
+        "ROBO CON INDIMIDACIÓN",
+        "ROBO CON VIOLENCIA",
+        "VIF (VIOLENCIA INTRAFAMILIAR)"
+    ],
+
+    "GESTIÓN DE RIESGOS, DESASTRES Y EMERGENCIA": [
+        "EMERGENCIA",
+        "ROTURA MATRIZ",
+        "ADULTO MAYOR DESCOMPENSADO",
+        "ADULTO MAYOR EXTRAVIADO",
+        "APOYO SISTEMA FRONTAL",
+        "ÁRBOL CAIDO",
+        "AUXILIO",
+        "AUXILIO ADULTO MAYOR",
+        "AUXILIO ANIMAL",
+        "CABLEADO CAÍDO",
+        "CAÍDA MISMO NIVEL",
+        "COLAPSO AGUAS SERVIDAS",
+        "CORTE ENERGÍA",
+        "DESLIZAMIENTO DE TIERRA",
+        "FALLA ALUMBRADO PÚBLICO",
+        "MORDIDA DE PERRO",
+        "PERSONA CON INFARTO",
+        "PERSONA DESCOMPENSADA",
+        "PERSONA AISLADA",
+        "VÍA EN MAL ESTADO",
+        "VIVIENDA INUNDADA"
+    ],
+
+    "GESTIÓN SEGURIDAD CIUDADANA": [
+        "PERSONA SITUACIÓN CALLE",
+        "ALARMA ACTIVADA",
+        "APERTURA",
+        "APOYO SEGURIDAD CIUDADANA",
+        "AVISO",
+        "SIN SISTEMA",
+        "SOLICITUD",
+        "TRASLADO",
+        "CONSULTA",
+        "INFRACCIÓN AL TRÁNSITO",
+        "LABORES OS14",
+        "OBJETO OLVIDADO",
+        "OBJETO SOSPECHOSO",
+        "OBJETO EN LA VÍA",
+        "PATRULLAJE PREVENTIVO",
+        "VEHÍCULO EN PANNE"
+    ],
+
+    "INCIVILIDADES": [
+        "ANIMALES EN LA PLAYA",
+        "ANIMALES EN LA VÍA",
+        "COMERIO AMBULANTE",
+        "CONSUMO DE DROGAS",
+        "DESMANES",
+        "ESTADO EBRIEDAD",
+        "FALINO ATRAPADO EN ÁRBOL",
+        "SUJETOS SOSPECHOSOS",
+        "VANDALIZACIÓN",
+        "VEHÍCULO SOSPECHOSO"
+    ],
+
+    "OTROS DELITOS O FALTAS": [
+        "ABIGEATO",
+        "EVENTO",
+        "FIESTA CLANDESTINA",
+        "MENOR EXTRAVIADA",
+        "ORDEN VIGENTE",
+        "PRESUNTA DESGRACIA",
+        "INTERVENCIÓN POSTE ALUMBRADI PÚBLICO"
+
+    ]
+    
+}
